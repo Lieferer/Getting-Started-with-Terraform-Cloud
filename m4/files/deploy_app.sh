@@ -14,7 +14,7 @@ cat << EOM > /var/www/html/index.html
   <div style="width:800px;margin: 0 auto">
 
   <!-- BEGIN -->
-  <center><img src="http://${placeholder}/${width}/${height}"></img></center>
+  <center><img src="http://${placeholder}/${width}/${height}?r"></img></center>
   <center><h2>Diamond Dogs</h2></center>
   Welcome to ${project}'s app.
   <!-- END -->
