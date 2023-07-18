@@ -3,7 +3,7 @@ terraform {
     organization = "lieferer"
 
     workspaces {
-      name = "space_coyote_dev"
+      tags = ["apps", "team:spacecoyote"]
     }
   }
 }

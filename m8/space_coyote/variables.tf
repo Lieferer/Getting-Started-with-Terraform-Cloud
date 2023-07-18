@@ -9,7 +9,7 @@ variable "project" {
 }
 
 variable "billable" {
-  type = string
+  type        = string
   description = "(Required) Billable code for project."
 }
 
