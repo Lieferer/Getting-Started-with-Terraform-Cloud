@@ -89,7 +89,7 @@ data "aws_ami" "ubuntu" {
 
 resource "aws_eip" "space_coyote" {
   instance = aws_instance.space_coyote.id
-  domain      = "vpc"
+  domain   = "vpc"
 }
 
 resource "aws_eip_association" "space_coyote" {
